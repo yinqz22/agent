@@ -1,0 +1,18 @@
+# Abhängigkeiten
+node_modules/
+
+# Next.js Build-Ausgabe
+.next/
+out/
+
+# Geheimnisse – niemals hochladen
+.env
+.env.*
+!.env.example
+
+# Sonstiges
+.vercel/
+.DS_Store
+*.log
+*.tsbuildinfo
+next-env.d.ts
